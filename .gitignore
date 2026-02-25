@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+*.env
+config/local.php
+
+# Uploaded files (keep the directory itself)
+uploads/products/*
+!uploads/products/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PHP dependencies (if composer is added later)
+vendor/
+composer.lock
+
+# Build artifacts
+node_modules/
